@@ -29,15 +29,15 @@ export default function EmperusWebsite() {
         <div className="relative mx-auto max-w-7xl px-6 py-20 md:px-10 lg:px-12">
           <nav className="mb-16 flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="mx-auto mb-4 flex h-24 w-24 items-center justify-center rounded-full border border-cyan-300/20 bg-cyan-400/10 shadow-lg shadow-cyan-400/20">
-              <Image
-              src="/logo1.png"
-              alt="Emperus logo"
-              width={180}
-              height={180}
-              className="h-auto w-auto max-h-32 object-contain"
-              priority
-            />
+              <div className="mx-auto mb-4 flex h-32 w-32 items-center justify-center rounded-2xl border border-cyan-300/20 bg-cyan-400/10 p-3 shadow-lg shadow-cyan-400/20">
+                <Image
+                  src="/logo1.png"
+                  alt="Emperus logo"
+                  width={180}
+                  height={180}
+                  className="h-auto w-auto max-h-24 object-contain"
+                  priority
+                />
               </div>
               <div>
                 <div className="text-lg font-semibold tracking-[0.25em]">EMPERUS</div>
@@ -86,13 +86,14 @@ export default function EmperusWebsite() {
                 <div className="rounded-[1.5rem] border border-white/10 bg-gradient-to-br from-slate-900 via-slate-950 to-black p-8">
                   <div className="mx-auto flex h-72 max-w-md items-center justify-center rounded-[1.5rem] border border-cyan-400/10 bg-[radial-gradient(circle,rgba(34,211,238,0.08),transparent_45%)]">
                     <div className="text-center">
-                      <div className="mx-auto mb-4 flex h-24 w-24 items-center justify-center rounded-full border border-cyan-300/20 bg-cyan-400/10 shadow-lg shadow-cyan-400/20">
+                      <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-cyan-300/20 bg-cyan-400/10 p-2 shadow-lg shadow-cyan-400/20">
                         <Image
                           src="/logo1.png"
                           alt="Emperus logo"
-                          width={180}
-                          height={180}
-                          className="h-24 w-24 rounded-full object-cover"
+                          width={120}
+                          height={120}
+                          className="h-auto w-auto max-h-10 object-contain"
+                          priority
                         />
                       </div>
                       <div className="text-3xl font-semibold tracking-[0.3em]">EMPERUS</div>
