@@ -31,7 +31,7 @@ export default function EmperusWebsite() {
             <div className="flex items-center gap-3">
               <div className="mx-auto mb-4 flex h-32 w-32 items-center justify-center rounded-2xl border border-cyan-300/20 bg-cyan-400/10 p-3 shadow-lg shadow-cyan-400/20">
                 <Image
-                  src="/logo1.png"
+                  src="/logo1.PNG"
                   alt="Emperus logo"
                   width={180}
                   height={180}
@@ -88,7 +88,7 @@ export default function EmperusWebsite() {
                     <div className="text-center">
                       <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-cyan-300/20 bg-cyan-400/10 p-2 shadow-lg shadow-cyan-400/20">
                         <Image
-                          src="/logo1.png"
+                          src="/logo1.PNG"
                           alt="Emperus logo"
                           width={120}
                           height={120}
