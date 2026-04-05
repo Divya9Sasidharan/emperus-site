@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function EmperusWebsite() {
   const features = [
     {
@@ -29,12 +30,15 @@ export default function EmperusWebsite() {
           <nav className="mb-16 flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="mx-auto mb-4 flex h-24 w-24 items-center justify-center rounded-full border border-cyan-300/20 bg-cyan-400/10 shadow-lg shadow-cyan-400/20">
-  <img
-    src="/logo1.png"
-    alt="Emperus logo"
-    className="h-24 w-24 rounded-full object-cover"
-  />
-</div>
+              <Image
+              src="/logo1.png"
+              alt="Emperus logo"
+              width={180}
+              height={180}
+              className="h-auto w-auto max-h-32 object-contain"
+              priority
+            />
+              </div>
               <div>
                 <div className="text-lg font-semibold tracking-[0.25em]">EMPERUS</div>
                 <div className="text-xs text-white/50">Where Machines Learn to Handle the World</div>
@@ -83,9 +87,11 @@ export default function EmperusWebsite() {
                   <div className="mx-auto flex h-72 max-w-md items-center justify-center rounded-[1.5rem] border border-cyan-400/10 bg-[radial-gradient(circle,rgba(34,211,238,0.08),transparent_45%)]">
                     <div className="text-center">
                       <div className="mx-auto mb-4 flex h-24 w-24 items-center justify-center rounded-full border border-cyan-300/20 bg-cyan-400/10 shadow-lg shadow-cyan-400/20">
-                        <img
+                        <Image
                           src="/logo1.png"
                           alt="Emperus logo"
+                          width={180}
+                          height={180}
                           className="h-24 w-24 rounded-full object-cover"
                         />
                       </div>
